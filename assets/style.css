@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+header{
+ position:fixed;
+ top: 0;
+ width: 100%;
+ background-color: grey;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.topMargin{
+    visibility: hidden;
+}
+.container{
+    width: auto;
+    margin: auto;
+    margin-left: 1rem;
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+    align-items: left;
+}
+
+.home, .about, .contact{
+    height: 300px;
+    margin-left: 1rem;
+    margin-top: 100px;
+}
+
+.about, .contact{
+    margin-top: 100px;    
+}
+
+@media(max-width:1280px){
+    .container{
+        width:100%;
+    }
+}
+
+img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.input-box input {
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  flex: 1;
+}
+
+input.button {
+  font-size: 1rem;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 4px 40px;
+}
+
+div.input-box label {
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  width: 20%;
+}
+
+
